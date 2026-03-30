@@ -42,6 +42,7 @@ print(f"large_img range: [{large_img.min():.4f}, {large_img.max():.4f}]")
 # 显示结果
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
+
 plt.imshow(large_img)
 plt.title('Original')
 plt.subplot(1, 2, 2)
